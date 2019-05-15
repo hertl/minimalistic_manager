@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/showInfo"
+        android:title="Show Info"/>
+
+    <item
+        android:id="@+id/setFavorite"
+        android:title="Add To Favorite Apps"/>
+
+    <item
+        android:id="@+id/unsetFavorite"
+        android:title="Remove From Favorite Apps"/>
+
+    <item
+        android:id="@+id/openSystem"
+        android:title="Open In System Manager"/>
+
+
+</menu>

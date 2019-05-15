@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/openWith"
+        android:title="Open With"
+        />
+
+    <item
+        android:id="@+id/copy"
+        android:title="Copy"/>
+
+    <item
+        android:id="@+id/move"
+        android:title="Move"/>
+
+    <item
+        android:id="@+id/addToClipboard"
+        android:title="Add To Clipboard"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/rename"
+        android:title="Rename"/>
+
+    <item
+        android:id="@+id/properties"
+        android:title="Properties"/>
+
+</menu>

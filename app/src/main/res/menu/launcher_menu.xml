@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"/>
+
+    <item
+        android:id="@+id/lSettings"
+        android:title="Settings"/>
+
+    <item
+        android:title="Filter...">
+
+        <menu>
+
+            <item
+                android:id="@+id/lFilter"
+                android:title="Add"/>
+
+            <item
+                android:id="@+id/lRemoveFilter"
+                android:title="Remove"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/fileManager"
+        android:title="File Manager"/>
+</menu>

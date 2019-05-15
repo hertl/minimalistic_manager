@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="ok_button">OK</string>
+    <string name="properties">Properties</string>
+    <string name="preferenceFirst">FIRST_RUN</string>
+    <string name="no">no</string>
+    <string name="no_button">NO</string>
+    <string name="yes_button">YES</string>
+    <string name="size">Size:</string>
+    <string name="paths">Paths:</string>
+    <string name="file_name">File name:</string>
+    <string name="path">Path:</string>
+    <string name="number_of_sub_items">Number of sub items:</string>
+    <string name="last_modified">Last modified:</string>
+    <string name="number_of_items">Number of items:</string>
+    <string name="total_size">Total size:</string>
+    <string name="version">Version</string>
+    <string name="version_code">Version code</string>
+    <string name="package0">Package</string>
+    <string name="system_application">System application</string>
+    <string name="apk_size">Apk size</string>
+    <string name="target_sdk">Target SDK</string>
+    <string name="installed">Installed</string>
+    <string name="updated">Updated</string>
+    <string name="permissions">Permissions</string>
+    <string name="sorting">Sorting</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="size1">Size</string>
+    <string name="extension">Extension</string>
+    <string name="sort_order">Sort order:</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="misc">Misc</string>
+    <string name="show_extension">Show extension:</string>
+    <string name="show_hidden">Show hidden:</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+
+    <item type="id" name="fileDirName"/>
+
+</resources>

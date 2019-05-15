@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+
+        <TextView
+            android:id="@+id/filenameCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file_name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#888888" />
+
+        <TextView
+            android:id="@+id/pathCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/path"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#888888" />
+
+        <TextView
+            android:id="@+id/sizeCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/size"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#888888" />
+
+        <TextView
+            android:id="@+id/numOfSubItemsCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_sub_items"
+            android:visibility="gone"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numOfSubItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/numOfSubItemsLine"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:visibility="gone"
+            android:background="#888888" />
+
+
+        <TextView
+            android:id="@+id/lastModifiedCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_modified"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lastModified"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#888888" />
+
+    </LinearLayout>
+
+</ScrollView>

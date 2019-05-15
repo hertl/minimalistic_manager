@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+            android:id="@+id/numOfItemsCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_items"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/numOfItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/numOfItemsLine"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#888888" />
+
+        <TextView
+            android:id="@+id/totalSizeCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_size"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:background="#888888" />
+
+
+    </LinearLayout>
+
+</ScrollView>

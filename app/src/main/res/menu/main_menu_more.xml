@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/selectAll"
+        android:title="Select All"/>
+
+    <item
+        android:id="@+id/addToClipboardMore"
+        android:title="Add Selected To Clipboard"/>
+
+    <item
+        android:id="@+id/deleteMore"
+        android:title="Delete Selected"/>
+
+    <item
+        android:id="@+id/propertiesMore"
+        android:title="Properties"/>
+
+    <item
+        android:id="@+id/cancelSelectMore"
+        android:title="Return"/>
+
+</menu>

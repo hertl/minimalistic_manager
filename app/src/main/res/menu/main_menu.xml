@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="New...">
+
+        <menu>
+            <item
+                android:id="@+id/newFile"
+                android:title="File"
+                />
+
+
+            <item
+                android:id="@+id/newDir"
+                android:title="Directory"
+                />
+        </menu>
+    </item>
+
+
+    <item
+        android:title="Filter...">
+
+        <menu>
+
+            <item
+                android:id="@+id/filter"
+                android:title="Add"/>
+
+            <item
+                android:id="@+id/removeFilter"
+                android:title="Remove"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Clipboard...">
+
+        <menu>
+
+            <item
+                android:id="@+id/clipboardCopy"
+                android:title="Copy"/>
+
+            <item
+                android:id="@+id/clipboardMove"
+                android:title="Move"/>
+
+            <item
+                android:id="@+id/clipboardClear"
+                android:title="Clear"/>
+
+            <item
+                android:id="@+id/clipboardShow"
+                android:title="Show"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/paste"
+        android:title="Paste Here"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/selectMore"
+        android:title="Select More"/>
+
+    <item
+        android:id="@+id/launcher"
+        android:title="Launcher"/>
+</menu>
